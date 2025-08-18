@@ -1,0 +1,87 @@
+@import './styles/variables.css';
+
+
+/* Variables globales */
+:root {
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+/* Estilos generales */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font);
+  min-height: 100vh;
+  color: var(--color-text); 
+  background: linear-gradient(-45deg, var(--gradient-color-1), var(--gradient-color-2), var(--gradient-color-3), var(--gradient-color-4));
+  background-size: 400% 400%;
+  animation: pastelGradient 15s ease infinite;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+/* Animación del degradado */
+@keyframes pastelGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Tipografías */
+h1, h2, h3 {
+  font-family: var(--title-font);
+  margin: 0;
+}
+h1 { color: var(--color-text); }
+h2 {
+  color: var(--color-text); /* Use theme variable for color */
+  /* Removed align-items: flex-start; */
+}
+
+/* Links */
+a {
+  font-weight: 500;
+  color: var(--purple-dark);
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease; /* Added transform transition */
+}
+a:hover {
+  color: var(--sky-blue);
+  transform: translateY(-2px); /* Added translateY on hover */
+}
+
+/* Botones */
+button {
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--purple-dark);
+  color: var(--color-bg);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background-color: var(--lavender);
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  html {
+    font-size: 90%;
+  }
+}
+.line2{
+margin-top: 5vw;
+  align-self: flex-start;
+  background: var(--project-tag);
+width:80vw;
+  border: 1px solid #c492f3d2;
+
+}

@@ -1,0 +1,57 @@
+/* Default Light Theme Variables */
+:root, html[data-theme="light"] {
+  --color-bg: #f8d2ef;
+  --color-text: #4b0b75;
+  --project-tag: #b69de6;
+  --purple-dark: #301934;
+  --lavender: #E6E6FA;
+  --light-lavender: #B4D9EF;
+  --sky-blue: #92bde6e8;
+  --pastel-blue: #b1d0db;
+
+  --navbar-bg: var(--light-lavender);
+  --navbar-text: var(--purple-dark);
+
+  --title-font: 'Bruno Ace', cursive;
+  --body-font: 'Michroma', sans-serif;
+
+  /* Light Mode Gradient Colors */
+  --gradient-color-1: #cfa7e1;
+  --gradient-color-2: #ead4fe;
+  --gradient-color-3: #d2cdf7;
+  --gradient-color-4: #e1b3f3;
+
+  --color-bg-input: rgba(255, 255, 255, 0.15); /* Added for light theme input background */
+
+  --icon-color-project: #176a8b; /* Light mode color for icons */
+}
+
+/* Dark Theme Variables */
+html[data-theme="dark"] {
+  --color-bg: #222;
+  --color-text: #f8d2ef;
+  --project-tag: #533386;
+  --purple-dark: #E6E6FA; 
+  --lavender: #301934; 
+  --light-lavender: #4a2c4e; /* A darker shade for backgrounds */
+  --sky-blue: #5c3d60; /* Another darker shade for backgrounds */
+  --pastel-blue: #6e4e72; /* Yet another darker shade for backgrounds */
+
+  --navbar-bg: #301934; /* Darker navbar for dark mode */
+  --navbar-text: #f8d2ef; /* Lighter text for dark mode */
+
+  --project-button-bg-dark: var(--lavender); /* Use the darker lavender for button background */
+  --project-button-text-dark: var(--color-text); /* Use light text */
+  --tech-badge-bg-dark: var(--light-lavender); /* Use a darker shade for tech badge background */
+  --tech-badge-text-dark: var(--color-text); /* Use light text */
+
+  /* Dark Mode Gradient Colors */
+  --gradient-color-1: #1a1a2e;
+  --gradient-color-2: #16213e;
+  --gradient-color-3: #0f3460;
+  --gradient-color-4: #533483;
+
+  --color-bg-input: rgba(0, 0, 0, 0.3); /* Added for dark theme input background */
+
+  --icon-color-project: #ba74bd; /* Dark mode color for icons */
+}
