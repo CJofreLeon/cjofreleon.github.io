@@ -89,7 +89,7 @@ export default function Contact() {
           <div className="info-item">
             <FaMapMarkerAlt className="contact-icon" /> Santiago de Chile
           </div>
-          <a href="https://www.linkedin.com/in/tuusuario" target="_blank" rel="noopener noreferrer">
+          <a href="www.linkedin.com/in/catalina-jofré-león-9296b0272" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="contact-icon" /> LinkedIn
           </a>
           <a href="https://github.com/CJofreLeon" target="_blank" rel="noopener noreferrer">
