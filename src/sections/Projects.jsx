@@ -24,7 +24,7 @@ export default function Projects() {
         "/images/erg-lab/grupal.png",
         "/images/erg-lab/interactivo.png",
       ],
-      demo: "/images/erg-lab/demo.mp4",
+      demo: "https://drive.google.com/file/d/1Zwbc1WS0Vv9cFCLt0_igCG-LiZmDeuXx/view",
       repo: "https://github.com/CJofreLeon/ERG-LAB",
       features: [
         "Autenticación de Usuarios: Sistema seguro de registro e inicio de sesión.",
@@ -68,7 +68,7 @@ export default function Projects() {
       shortDescription: "Sistema de tickets con roles definidos.",
       description:
         "Construida con tecnologías modernas, la plataforma permite a las organizaciones manejar solicitudes de clientes, asignar tareas a equipos de soporte y supervisar el ciclo de vida completo de cada ticket a través de un sistema de roles bien definido.",
-      stack: ["Java", "MySQL", "Docker", "React", "MySQL", "Maven", "Spring Boot"],
+      stack: ["Java", "MySQL", "Docker", "React", "Maven", "Spring Boot"],
       logo: "/images/tickstem/logo.png",
       images: [
         "/images/tickstem/dbadmin.png",
@@ -80,8 +80,8 @@ export default function Projects() {
         "/images/tickstem/respuesta.png",
         "/images/tickstem/usuarios.png",
       ],
-      demo: "/images/aquaplants/aquaplants.mp4",
-      repo: "https://github.com/usuario/tickstem-private",
+      demo: "cjofreleon.",
+      repo: "https://github.com/CJofreLeon/TickStem",
       features: [
         "Gestión Completa de Tickets: Creación, asignación, actualización de estado, y seguimiento de tickets.",
         "Control de Acceso Basado en Roles (RBAC): Permisos y vistas personalizadas para diferentes tipos de usuarios (Clientes, Analistas, Jefatura, Superadmin).",
