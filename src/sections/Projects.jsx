@@ -62,7 +62,36 @@ export default function Projects() {
       ]
 
     },
-  
+    {
+      title: "TickStem",
+      context: "Proyecto personal",
+      shortDescription: "Sistema de tickets con roles definidos.",
+      description:
+        "Construida con tecnologías modernas, la plataforma permite a las organizaciones manejar solicitudes de clientes, asignar tareas a equipos de soporte y supervisar el ciclo de vida completo de cada ticket a través de un sistema de roles bien definido.",
+      stack: ["Java", "MySQL", "Docker", "React", "MySQL", "Maven", "Spring Boot"],
+      logo: "/images/tickstem/logo.png",
+      images: [
+        "/images/tickstem/dbadmin.png",
+        "/images/tickstem/dbanalista.png",
+        "/images/tickstem/jefatura.png",
+        "/images/tickstem/dbcliente.png",
+        "/images/tickstem/crearusuario.png",
+        "/images/tickstem/crear.png",
+        "/images/tickstem/respuesta.png",
+        "/images/tickstem/usuarios.png",
+      ],
+      demo: "/images/aquaplants/aquaplants.mp4",
+      repo: "https://github.com/usuario/tickstem-private",
+      features: [
+        "Gestión Completa de Tickets: Creación, asignación, actualización de estado, y seguimiento de tickets.",
+        "Control de Acceso Basado en Roles (RBAC): Permisos y vistas personalizadas para diferentes tipos de usuarios (Clientes, Analistas, Jefatura, Superadmin).",
+        "Dashboard Interactivo: Visualización de métricas clave y estado general del sistema en tiempo real.",
+        "Autenticación Segura: Implementación de JSON Web Tokens (JWT) para proteger las rutas y los datos de la aplicación.",
+        "Interfaz de Usuario Moderna: Una interfaz limpia y responsiva construida con React para una experiencia de usuario fluida."
+
+      ]
+
+    },
   ];
 
   return (
