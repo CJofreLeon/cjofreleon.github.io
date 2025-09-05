@@ -95,7 +95,7 @@ export default function Contact() {
           <a href="https://github.com/CJofreLeon" target="_blank" rel="noopener noreferrer">
             <FaGithub className="contact-icon" /> GitHub
           </a>
-          <a href="/CV/Catalina_Jofre_Leon_CV.pdf" download>
+          <a href="/cv/cv-catalina-jofre-leon.pdf" download>
             <FaFileDownload className="contact-icon" /> Descargar CV
           </a>
           <a href="mailto:catalina.jofre.leon.ing@gmail.com">

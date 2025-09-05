@@ -88,7 +88,6 @@ export default function Projects() {
         "Dashboard Interactivo: Visualización de métricas clave y estado general del sistema en tiempo real.",
         "Autenticación Segura: Implementación de JSON Web Tokens (JWT) para proteger las rutas y los datos de la aplicación.",
         "Interfaz de Usuario Moderna: Una interfaz limpia y responsiva construida con React para una experiencia de usuario fluida."
-
       ]
 
     },
